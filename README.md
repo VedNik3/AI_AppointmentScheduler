@@ -26,7 +26,7 @@ The data flows as follows:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <YOUR_GITHUB_REPOSITORY_URL>
+    git clone https://github.com/VedNik3/AI_AppointmentScheduler.git
     cd ai-appointment-scheduler
     ```
 
@@ -56,7 +56,7 @@ The data flows as follows:
 
 ## API Usage
 
-The API has a single endpoint for scheduling appointments.
+The API has a single endpoint for scheduling appointments (Postman for testing).
 
 * **Endpoint:** `POST /api/schedule`
 * **Body Type:** `multipart/form-data`

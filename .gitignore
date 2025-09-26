@@ -2,4 +2,6 @@
 
 /.env
 
+/uploads
+
 test-api-key.js

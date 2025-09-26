@@ -14,7 +14,7 @@ const uploadDir = path.join(__dirname, '../uploads');
 
 
 if (!fs.existsSync(uploadDir)) {
-  fs.mkdirSync(upload-dir, { recursive: true });
+  fs.mkdirSync(uploadDir, { recursive: true });
 }
 
 

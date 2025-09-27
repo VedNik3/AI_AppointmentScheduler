@@ -53,13 +53,33 @@ The data flows as follows:
     ```
     
     The server will be running on `http://localhost:5000`.
+    
+## Hosted URL
+`https://ai-appointmentscheduler.onrender.com/`
 
-## API Usage
+## API Usage & Sample Requests
 
-The API has a single endpoint for scheduling appointments (Postman for testing).
+This API has a single endpoint to handle appointment scheduling from either text or an image.
 
 * **Endpoint:** `POST /api/schedule`
+* **URL:** `https://ai-appointmentscheduler.onrender.com/api/schedule` or `http://localhost:5000/api/schedule`
 * **Body Type:** `multipart/form-data`
+
+---
+
+### Test Case 1: Text-Only Request
+
+This example shows how to schedule an appointment by providing a simple text string.
+
+#### Postman Setup:
+Set the body to `form-data` and add a `text` key with your request string `value` like `Book appointment for next Friday at 3pm`.
+
+### Test Case 2: Image-Only Request
+
+This example shows how to schedule an appointment by uploading an image of a note.
+
+#### Postman Setup:
+Set the body to `form-data`. Add an `appointmentImage` key, and be sure to change its type from "Text" to **"File"** in the dropdown menu. Then, upload your image.
 
 ### Parameters
 

@@ -27,7 +27,7 @@ The data flows as follows:
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/VedNik3/AI_AppointmentScheduler.git
-    cd ai-appointment-scheduler
+    cd AI_AppointmentScheduler
     ```
 
 2.  **Install dependencies:**

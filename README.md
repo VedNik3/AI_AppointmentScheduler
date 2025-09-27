@@ -1,4 +1,4 @@
-# AI-Powered Appointment Scheduler Assistant
+# Problem Statement 5 : AI-Powered Appointment Scheduler Assistant
 
 This project is a backend service that parses natural language or document-based appointment requests and converts them into structured scheduling data. It uses a multi-step AI pipeline to handle both typed text and image inputs.
 
@@ -55,7 +55,7 @@ The data flows as follows:
     The server will be running on `http://localhost:5000`.
     
 ## Hosted URL
-`https://ai-appointmentscheduler.onrender.com/`
+https://ai-appointmentscheduler.onrender.com/
 
 ## API Usage & Sample Requests
 
@@ -89,3 +89,6 @@ Set the body to `form-data`. Add an `appointmentImage` key, and be sure to chang
 You must provide at least one of the two parameters.
 
 ---
+
+### Video Demo Link
+https://drive.google.com/file/d/1Wk5IVUkJZJD5obwI3dU5K5rQqmFEA6Qx/view?usp=sharing
